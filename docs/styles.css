@@ -16,13 +16,12 @@ body{
     height: 180px;
     margin: auto;
     border: 15px solid #8781bd ;
-    background: no-repeat center url("../img/icon.png");
+    border-radius: 50%;
+    background: url("./assets/icon.png") no-repeat center;
     background-size: contain;
 }
 
-.circle {
-    border-radius: 50%;
-}
+
 
 .btn {
     border-radius: 5px;
