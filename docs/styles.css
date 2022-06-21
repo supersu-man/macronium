@@ -2,7 +2,6 @@ body{
     height: 100%;
     padding: 0px;
     margin: 0px;
-    
 }
 
 .center {
@@ -21,14 +20,17 @@ body{
     background-size: contain;
 }
 
-
-
 .btn {
     border-radius: 5px;
     padding: 5px;
     margin: 5px;
     border: 1px solid #8781bd;
     color: 8781bd;
+}
+
+.btn:hover{
+    border-color: transparent;
+    background-color: #8781bd;
 }
 
 a{
