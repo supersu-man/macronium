@@ -1,0 +1,25 @@
+* {
+	font-family: 'Roboto';
+}
+
+html,
+body {
+	height: 100%;
+	width: 100%;
+	padding: 0px;
+	margin: 0px;
+}
+
+a {
+	text-decoration: none;
+}
+
+.center-vh {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.font-14px {
+	font-size: 14px;
+}
