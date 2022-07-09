@@ -1,6 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
-* {
-	font-family: 'Roboto', sans-serif;
+@font-face {
+    font-family: Roboto;
+    src: url(../assets/fonts/Roboto.ttf); 
 }
 
 html,
@@ -9,6 +9,8 @@ body {
 	width: 100%;
 	padding: 0px;
 	margin: 0px;
+	font-family: Roboto;
+	font-weight: 500;
 }
 
 a {
