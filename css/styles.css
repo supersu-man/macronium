@@ -7,17 +7,18 @@
 
 html,
 body {
-    height: 100%;
     width: 100%;
     padding: 0px;
     margin: 0px;
     font-family: Roboto;
     background-color: var(--md-sys-color-surface);
-    color: var(--md-sys-color-primary);
+    color: var(--md-sys-color-on-surface);
 }
 
-a {
+a,
+a:hover {
     text-decoration: none;
+    color: inherit;
 }
 
 .center-vh {
@@ -80,6 +81,6 @@ a {
     height: 24px;
     width: 48px;
     border: 4px solid var(--md-sys-color-primary);
-    background-image: url(../assets/svgs/circle.svg);
+    background-image: url(../assets/imgs/circle.svg);
     background-color: var(--md-sys-color-primary);
 }

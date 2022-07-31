@@ -275,7 +275,7 @@
     --md-sys-color-inverse-on-surface: var(--md-sys-color-inverse-on-surface-light);
 
     --surface1: linear-gradient(0deg, rgba(92, 83, 167, 0.05), rgba(92, 83, 167, 0.05)), var(--surface);
-    --icon: url(../assets/svgs/light_icon.svg);
+    --icon: url(../assets/imgs/light_icon.svg);
 }
 
 .dark-theme {
@@ -306,5 +306,5 @@
     --md-sys-color-inverse-on-surface: var(--md-sys-color-inverse-on-surface-dark);
 
     --surface1: linear-gradient(0deg, rgba(198, 191, 255, 0.05), rgba(198, 191, 255, 0.05)), var(--surface);
-    --icon: url(../assets/svgs/dark_icon.svg);
+    --icon: url(../assets/imgs/dark_icon.svg);
 }
