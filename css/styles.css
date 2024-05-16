@@ -15,12 +15,6 @@ body {
     color: var(--md-sys-color-on-surface);
 }
 
-a,
-a:hover {
-    text-decoration: none;
-    color: inherit;
-}
-
 .center-vh {
     display: flex;
     align-items: center;
